@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HTML Element: Form (Block TAG) + Form แบบป้อน/Form แบบเลือก/Form แบบกดปุ่ม (Inline TAG) -->
+    <form action="" method="">
+        <!-- แบบป้อน -->
+        <label for="">ชื่อ-นามสกุล</label>
+        <input type="text" placeholder="รบกวนป้อนแต่ตัวอักษรเท่านั้น" name="" id="" />
+        <br /><br />
+        <label for="">อายุ</label>
+        <input type="number" placeholder="28" name="" id="" />
+        <br /><br />
+        <label for="">อีเมล์</label>
+        <input type="email" placeholder="example@mail.com" name="" id="" />
+        <br /><br />
+        <label for="">รหัสผ่าน</label>
+        <input type="password" placeholder="อย่างน้อย 6 ตัวอักษร" name="" id="" />
+        <br /><br />
+        <label for="">ประวัติส่วนตัว</label>
+        <textarea name="" id=""></textarea>
+        <!-- แบบเลือก -->
+        <!-- กรณีเลือกได้แค่ 1 และต้องเลือก -->
+        <br /><br />
+        <label for="">เพศ</label>
+        <input type="radio" name="sex" id="" />ชาย
+        <input type="radio" name="sex" id="" />หญิง
+        <input type="radio" name="sex" id="" />LGBTQ+
+        <input type="radio" name="sex" id="" checked />ไม่ระบุ <br /><br />
+        <label for="">จังหวัดบ้านเกิด</label>
+        <select name="" id="">
+            <!-- Dropdown, ComboBox -->
+            <option value="">กรุงเทพ</option>
+            <option value="">นครปฐม</option>
+            <option value="" selected>ชลบุรี</option>
+            <option value="">ตราด</option>
+        </select>
+        <!-- กรณีเลือกได้มากกว่า 1 หรือไม่เลือกก็ได้ -->
+        <br /><br />
+        <label for="">อาหารที่ชอบ</label>
+        <input type="checkbox" name="" id="" />KFC
+        <input type="checkbox" name="" id="" />Pizza
+        <input type="checkbox" name="" id="" />Sushi
+        <input type="checkbox" name="" id="" />Burger King
+        <!-- เลือกวันที่ -->
+        <br /><br />
+        <label for="">วันเดือนปี เกิด</label>
+        <input type="date" name="" id="" />
+        <!-- เลือกเวลา -->
+        <br /><br />
+        <label for="">เวลาตกฟาก</label>
+        <input type="time" name="" id="" />
+        <!-- เลือกวันที่ + เวลา -->
+        <br /><br />
+        <label for="">วันเวลาเข้าทำงาน</label>
+        <input type="datetime-local" name="" id="" />
+        <!-- เลือกไฟล์ (รูป, วีดีโอ, เอกสาร) -->
+        <br /><br />
+        <label for="">เลือกรูป</label>
+        <input type="file" name="" id="" accept="image/*" />
+        <br /><br />
+        <label for="">เลือกไฟล์ word, pdf</label>
+        <input type="file" name="" id="" accept=".doc, .docx, .pdf" />
+        <!-- ปุ่มกด -->
+        <br /><br />
+        <input type="submit" value="ตกลง/บันทึก/OK/Save/Yes/Update/Delete/....">
+        <input type="reset" value="ยกเลิก/Cancel/ล้างข้อมูล/Clear">
+        <br /><br />
+        <button>ตกลง</button>
+        <button>WOW WOW WOW</button>
+    </form>
+</body>
+
+</html>
